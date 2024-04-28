@@ -1,0 +1,51 @@
+#Assignment 1
+
+1. Spin up the server at port 3000
+2. Handle two routes "/ and "/users"
+    1. Return greeting at "/"
+    2. Return list of dummy users
+
+3. Add a form with username as input to "/" page and submit a POST request upon button click
+4. Add "/create-user" route and parse the incoming data and log it console
+
+
+Status: #Complete
+
+
+#Assignment 2
+
+1. create npm project and install express
+2. create express app with 2 middle request 
+3. / and /users 
+
+
+Status: Incomplete
+
+
+#Assignment 3
+
+1. Create a npm project and install express.js 
+2. Create a express app which server two contents / and /users
+3. Add some static js or css files to your project that should be required by at least one of your HTML files.
+
+Status: Incomplete
+
+#Assignment 4
+
+1. Create a npm project and install express
+2. Add two routes / hold the form where user can input their names and /users when these users are listed.
+
+Personal choice of using template engine: EJS
+
+Status: Incomplete
+
+#Assignment 5
+
+
+
+
+
+
+
+
+
