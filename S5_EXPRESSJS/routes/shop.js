@@ -1,20 +1,25 @@
-const express =require('express');
-const path =require('path');
-const router =express.Router();
-const rootDir = require('../util/path');
-const adminData=require('./admin');
+const path = require('path');
 
+const express = require('express');
 
-router.get('/',(req,res,next)=>{
+const shopController = require('../controllers/shop');
 
-    console.log(adminData.products);
+const router = express.Router();
 
-    //res.sendFile(path.join(rootDir,'views','shop.html'));
+router.get('/', shopController.getIndex);
 
-    res.render('shop',{prods:adminData.products, docTitle:'Shop'});
+router.get('/products', shopController.getProducts);
 
-}); 
+router.get('/products/:productId', shopController.getProduct);
 
+router.get('/cart', shopController.getCart);
 
+router.post('/cart', shopController.postCart);
 
-module.exports =router;
+router.post('/cart-delete-item', shopController.postCartDeleteProduct);
+
+router.get('/orders', shopController.getOrders);
+
+router.get('/checkout', shopController.getCheckout);
+
+module.exports = router;

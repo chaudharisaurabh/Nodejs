@@ -12,3 +12,22 @@ Module 6 -Rendering dynamic content and adding templating engines
 4. Working with handlebars
 5. Working with EJS
 6. 
+
+Module 7 -MVC
+
+
+
+Module 8 - Enhancing the app
+
+Module 9 - Dynamic Routes and advanced models
+
+Module 10 : Databases
+    1. Module Introduction
+    2. Choosing database
+        1. SQL vs NOSql
+    3. 
+
+
+    
+
+
