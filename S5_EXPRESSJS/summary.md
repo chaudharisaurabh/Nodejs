@@ -25,7 +25,12 @@ Module 10 : Databases
     1. Module Introduction
     2. Choosing database
         1. SQL vs NOSql
-    3. 
+
+
+Module 11: Sequelize
+
+    1. Connecting to db
+    2. working on models
 
 
     
